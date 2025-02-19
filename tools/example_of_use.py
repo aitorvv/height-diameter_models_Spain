@@ -1,0 +1,36 @@
+# Code to call height-diameter models functions ----
+#
+# Aitor Vázquez Veloso
+# 2024-11-25
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+
+from one_model_to_rule_them_all import *
+
+def main():
+    """
+    Example usage of the height-diameter model functions.
+    """
+    # Generate the test dataset
+    df = test_hd_df()
+
+    # Apply the height prediction function
+    new_df = predict_height(df)
+
+    # Display the resulting DataFrame with predicted heights
+    print('Results of the height prediction function using the by default dataset:')
+    print(new_df)
+    
+    # Generate the test dataset (customized)
+    df = test_hd_df_2()
+
+    # Apply the height prediction function
+    new_df = predict_height(df, path_to_pars='data/', dbh_col='dbh_cm', species_value='code', 
+                         species_col='codes', clim_col='region', mix_col='pure_mix', or_col='nat_plant')
+
+    # Display the resulting DataFrame with predicted heights
+    print('Results of the height prediction function using the customized dataset:')
+    print(new_df)
+
+# Call the main function
+if __name__ == "__main__":
+    main()
