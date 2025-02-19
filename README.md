@@ -116,7 +116,7 @@ The content of this repository is under the [MIT license](./LICENSE).
 
 <img src="https://warnell.uga.edu/sites/default/files/styles/square_400x400/public/Yang_photo1.jpg?itok=w2sseGLS" alt="Description" width="50"> 
 
-[![ORCID](https://img.shields.io/badge/ORCID-0000--0003--0227--506X-green?logo=orcid)](https://orcid.org/0000-0002-4689-2628) 
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--4689--2628-green?logo=orcid)](https://orcid.org/0000-0002-4689-2628) 
 [![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Sheng-I-Yang) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/sheng-i-yang-b40713ba/) 
 [<img src="https://media.licdn.com/dms/image/v2/D560BAQE-PbmFpTkcrQ/company-logo_200_200/company-logo_200_200/0/1687803751321/university_of_georgia_logo?e=1747872000&v=beta&t=h9hk5eeZ4eSSOXpyN8ofSgMMLkfEVS6kid04NIwsAjY" alt="Description" width="22">](https://portaldelaciencia.uva.es/investigadores/181874/detalle)
@@ -135,7 +135,7 @@ The content of this repository is under the [MIT license](./LICENSE).
 
 [![](https://github.com/Felipe-Bravo.png?size=50)](https://github.com/Felipe-Bravo) 
 
-[![ORCID](https://img.shields.io/badge/ORCID-0000--0003--0227--506X-green?logo=orcid)](https://orcid.org/0000-0001-7348-6695) 
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--7348--6695-green?logo=orcid)](https://orcid.org/0000-0001-7348-6695) 
 [![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Felipe-Bravo-11) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/felipebravooviedo) 
 [![X](https://img.shields.io/badge/X-1DA1F2?logo=x&logoColor=white)](https://twitter.com/fbravo_SFM) 
