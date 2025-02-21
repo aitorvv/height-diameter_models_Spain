@@ -1,14 +1,14 @@
-<div style="text-align: center;">
-
-*Original data, code and results related to the scientific article titled*
-
 # ***One model to rule them all: a nationwide height-diameter model for 91 Spanish forest species***
 
-</div>
+*Original data, code and results related to the study*
 
-## :file_folder: Folder Content
+---
 
 :bulb::brain: ***Each file and/or folder code corresponds to the script used to generate it, ensuring that all (dataset + script + output) share the same code***
+
+---
+
+## :file_folder: Folder Content
 
 - :open_file_folder: :books: :floppy_disk: ***metadata*** contains the data documentation, available [here](./metadata/SFNI_metadata_avv.md)
 - :open_file_folder: 📊 ***0_data_reports*** contains *.html* files with basic variable descriptions at the plot and tree levels for an overview

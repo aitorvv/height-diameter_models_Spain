@@ -1,16 +1,16 @@
-<div style="text-align: center;">
-
-*Original data, code and results related to the scientific article titled*
-
 # ***One model to rule them all: a nationwide height-diameter model for 91 Spanish forest species***
 
-</div>
+*Original data, code and results related to the study*
 
-## :file_folder: Folder Content
+---
 
 :bulb::brain: ***Each file and/or folder code corresponds to the script used to generate it, ensuring that all (dataset + script + output) share the same code***
 
 :warning: :scroll: ***Remember to update the script paths in your working directory if you plan to use that code***
+
+---
+
+## :file_folder: Folder Content
 
 - `0.0_support_data_report.r` `0.0_support_plot_functions.r` `0.0_support_tree_functions.r`
 	- :bulb: *purpose*: support functions to create a data report and calculate variables related with both trees and plots

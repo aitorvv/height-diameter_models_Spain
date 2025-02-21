@@ -1,10 +1,8 @@
-<div style="text-align: center;">
-
-*Original data, code and results related to the scientific article titled*
-
 # ***One model to rule them all: a nationwide height-diameter model for 91 Spanish forest species***
 
-</div>
+*Original data, code and results related to the study*
+
+---
 
 <!--:bulb: Have a look at the original poster  [here](http://dx.doi.org/10.13140/RG.2.2.27865.94564). -->
 
@@ -47,7 +45,7 @@ The proposed models are simple in structure and rely on easily obtainable predic
 
 :point_right: As an outcome of this work, you can utilize the following resources available [here](./tools/):
 
-- <img src="https://avatars.githubusercontent.com/u/111344993?s=200&v=4" alt="simanfor_logo" width="20"> ***A new [SIMANFOR](www.simanfor.es) model***: the model developed in this study was implemented into the simulator. You can access it by selecting the *Calcular alturas* model during the scenario creation screen. Additionally, models without a specific height-diameter equation will use it when needed. Check the [models documentation](https://github.com/simanfor/modelos) for more information
+- <img src="https://avatars.githubusercontent.com/u/111344993?s=200&v=4" alt="simanfor_logo" width="20"> ***A new [SIMANFOR](www.simanfor.es) model***: SIMANFOR is a forest management simulator avaiable for free on its website ([www.simanfor.es](www.simanfor.es)). The model developed in this study was implemented into the simulator. You can access it by selecting the *Calcular alturas* model during the scenario creation screen. Additionally, models without a specific height-diameter equation will use it when needed. Check the [models documentation](https://github.com/simanfor/modelos) for more information
 - :computer: :1234: ***Excel calculator***: explore that [*Excel calculator file*](./tools/) (both English and Spanish) to run the models developed in this study without effort
 
 ![](./tools/screenshots/excel_result.png)

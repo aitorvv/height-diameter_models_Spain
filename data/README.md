@@ -1,15 +1,9 @@
-<div style="text-align: center;">
-
-*Original data, code and results related to the scientific article titled*
-
 # ***One model to rule them all: a nationwide height-diameter model for 91 Spanish forest species***
 
-</div>
-
-
-## :open_file_folder: Folder Content
+*Original data, code and results related to the study*
 
 ---
+
 
 :warning: Due to file size restrictions, the raw data and part of the processed one was not uploaded to GitHub. However, you can access it through this  [OneDrive link](https://uvaes-my.sharepoint.com/:f:/g/personal/aitor_vazquez_veloso_uva_es/Ekf3mkjKZRhAsWMddelRczYBsTuhLNRf1qy7x_30ImVW4w?e=Y7hiiP). If the link is not working, please let us know.
 
@@ -23,7 +17,7 @@
 
 ---
 
-### :file_folder: Folder Content
+## :file_folder: Folder Content
 
 - :open_file_folder: ***1_raw***: initial datasets
 

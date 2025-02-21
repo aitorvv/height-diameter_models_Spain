@@ -1,16 +1,14 @@
-<div style="text-align: center;">
-
-*Original data, code and results related to the scientific article titled*
-
 # ***One model to rule them all: a nationwide height-diameter model for 91 Spanish forest species***
 
-</div>
+*Original data, code and results related to the study*
+
+---
 
 ## :file_folder: Folder Content
 
 The model and its parameterization for the different species and stand characteristics was included in different ready-to-use tools to promote its usability, including: 
 
-- <img src="https://avatars.githubusercontent.com/u/111344993?s=200&v=4" alt="simanfor_logo" width="20"> ***A new [SIMANFOR](www.simanfor.es) model***: the model developed in this study was implemented into the simulator. You can access it by selecting the *Calcular alturas* model during the scenario creation screen. Additionally, models without a specific height-diameter equation will use it when needed. Check the [models documentation](https://github.com/simanfor/modelos) for more information
+- <img src="https://avatars.githubusercontent.com/u/111344993?s=200&v=4" alt="simanfor_logo" width="20"> ***A new [SIMANFOR](www.simanfor.es) model***: SIMANFOR is a forest management simulator avaiable for free on its website [www.simanfor.es](www.simanfor.es). The model developed in this study was implemented into the simulator. You can access it by selecting the *Calcular alturas* model during the scenario creation screen. Additionally, models without a specific height-diameter equation will use it when needed. Check the [models documentation](https://github.com/simanfor/modelos) for more information
 
 ![](./screenshots/simanfor_model.png)
 
