@@ -1,7 +1,6 @@
 # ***One model to rule them all: a nationwide height-diameter model for 91 Spanish forest species***
 
-*Original data, code and results related to the study*
-
+### :computer: :floppy_disk: :bar_chart: *Original data, code and results related to the study*
 ---
 
 <!--:bulb: Have a look at the original poster  [here](http://dx.doi.org/10.13140/RG.2.2.27865.94564). -->
@@ -20,19 +19,17 @@
 ## :sparkles: Highlights 
 
 - A total of 1,512,721 observations representing 91 species were collected from the Spanish National Forest Inventory.
-- Ninety-five different baseline equations using dbh as the sole predictor were tested.
-- A unified non linear mixed-effect model was fitted, incorporating all species and observations.
-- Variables addressing stand origin, species mixture, and biogeographic region were included as fixed effects.
-- The model is simple in structure, relies on easily measurable predictors and is well-suited for field applications.
+- The derived mixed-effects model provides unbiased species-specific predictions of total tree heights.
+- The inclusion of site qualitative variables in the model plays an important role in improving the model predictability.
+- Trees in plantations and pure stands tend to reach greater heights than those in natural and mixed stands.
+- Regional variation depends on species, while the Atlantic region has larger trees than other regions.
 
 
 ## :book: Abstract
 
-Developing reliable quantitative tools is essential for accurately monitoring and predicting tree and forest growth in the context of sustainable forest management. In common growth and yield modeling systems, diameter at breast height (dbh) and total tree height are key variables for estimating and predicting metrics such as total volume, biomass, and carbon content. However, measuring tree height in the field is more challenging and time-consuming compared to dbh. To address this, height-diameter (h-d) relationship models provide a practical alternative, enabling the estimation of tree heights using only dbh measurements.
+Accurately characterizing tree allometry is essential for sustainable forest management to predict forest growth and yield, monitor long-term stand dynamics and assess the impacts of disturbances. Among different allometric attributes, past studies have focused on understanding the relationships between tree height and diameter at breast height (dbh), also known as height-diameter (h-d) relationships. Both variables are commonly used to estimate and predict tree and stand metrics (e.g., total volume, biomass and carbon) as well as to assess site productivity. Under limited budget and time constraints, h-d models, which predict tree heights using dbh measurements, provide a practical and cost-effective alternative. In this study, a mixed-effects h-d model was developed for making species-specific predictions for 91 tree species across broad geographic areas in Spain. A total of 1,512,721 observations were collected from the Spanish National Forest Inventory sample plots for analysis.
 
-In this study, new h-d models were developed for the main forest species in Spain. A total of 1,512,721 observations, representing 91 species, were collected from Spanish National Forest Inventory sample plots for analysis. The best baseline equations out of 95 alternatives using dbh as a unique predictor was selected to fit a unique non linear mixed-effect model. The results indicate that different equations can achieve similar levels of performance. Furthermore, incorporating variables such as stand origin, species mixture, and biogeographic region enhances model predictability, particularly when applied across broad geographic areas.
-
-The proposed models are simple in structure and rely on easily obtainable predictors, making them practical for field application and minimizing the need for complex measurements. Their integration into widely-used forest growth and yield simulators, such as SIMANFOR, further facilitates their adoption by forest practitioners and managers, supporting informed and effective forest management decisions.
+Results indicate that the final model, selected from a pool of 95 candidates, provides unbiased predictions of total tree height based on the 95% confidence interval of mean bias. In addition to dbh, the inclusion of site qualitative variables (stand origin, species mixture and biogeographic region) in the model plays an important role in improving the model predictability. For a given tree dbh, trees in plantations and pure stands tend to achieve greater heights than those in natural and mixed stands. Regional variation is species-dependent, while the Alpine region with a higher wind speed and cooler temperature tends to exhibit shorter trees compared to other regions. The proposed models are simple in structure and rely on easily-obtainable predictors, making them useful for field application and minimizing the need for complex measurements. This study provides an alternative quantitative tool for forest practitioners and managers when predicting total tree heights for diverse forest ecosystems across a wide range of geographic regions. 
 
 ## :dart: Graphical abstract
 
