@@ -4,7 +4,7 @@
 # Step 5: graph results of the best model
 #
 # Aitor Vázquez Veloso
-# 2024-11-20
+# 2025-06-13
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
 
 
@@ -54,7 +54,9 @@ for(sp in sp_list){
          y = "Predicted height (m)") +
     theme_minimal() +
     theme(plot.title = element_text(hjust = 0.5),
-          plot.subtitle = element_text(hjust = 0.5)) +
+          plot.subtitle = element_text(hjust = 0.5),
+          axis.text.x = element_text(size = 13),
+          axis.text.y = element_text(size = 13)) +
     coord_equal() +           # ensure equal scaling on both axes
     xlim(0, max_value_h) +      # set limits for the x-axis
     ylim(0, max_value_h)        # set limits for the y-axis
@@ -74,7 +76,9 @@ for(sp in sp_list){
       #      y = "Predicted height (m)") +
       theme_minimal() +
       theme(axis.title.x = element_blank(),
-            axis.title.y = element_blank()) +
+            axis.title.y = element_blank(),
+            axis.text.x = element_text(size = 15),
+            axis.text.y = element_text(size = 15)) +
       coord_equal() +           # ensure equal scaling on both axes
       xlim(0, max_value_h) +      # set limits for the x-axis
       ylim(0, max_value_h)        # set limits for the y-axis
@@ -111,18 +115,18 @@ for(sp in sp_list){
     theme_minimal() +
     theme(plot.title = element_text(hjust = 0.5),
           plot.subtitle = element_text(hjust = 0.5))
-  ggsave(paste("3_figures/2.4-5_best_model/sp_residuals/best_model_-residuals_vs_fitted-sp_", sp, ".png", sep = ''), 
+  ggsave(paste("3_figures/2.4-5_best_model/sp_residuals/best_model_-residuals_vs_fitted-sp_", sp, ".png", sep = ''),
          dpi = 300, width = 7, height = 5)
-  
+
   # Histogram of residuals
   ggplot(df_sp, aes(x = h - predicted_h)) +
     geom_histogram(bins = 50, fill = "black", alpha = 0.7, color = "black") +
-    labs(title = "Histogram of Residuals", 
+    labs(title = "Histogram of Residuals",
          x = "residuals (m)", y = "count") +
     theme_minimal() +
     theme(plot.title = element_text(hjust = 0.5),
           plot.subtitle = element_text(hjust = 0.5))
-  ggsave(paste("3_figures/2.4-5_best_model/sp_histogram/best_model_-histogram_residuals-sp_", sp, ".png", sep = ''), 
+  ggsave(paste("3_figures/2.4-5_best_model/sp_histogram/best_model_-histogram_residuals-sp_", sp, ".png", sep = ''),
          dpi = 300, width = 7, height = 5)
 }
 
@@ -286,8 +290,11 @@ ggplot(df_sp, aes(x = dbh, y = h)) +
        # color = "Región biogeográfica") +  # spanish
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5),
-        plot.subtitle = element_text(hjust = 0.5, face = "italic") 
-  )
+        plot.subtitle = element_text(hjust = 0.5, face = "italic"),
+       axis.text = element_text(size = 13),
+       axis.title = element_text(size = 15),
+       legend.title = element_text(size = 15),
+       legend.text = element_text(size = 13))
 ggsave("3_figures/2.4-5_best_model/graph_by_fe_variables-paper/best_model-climate_region_ppinaster.png", dpi = 300, 
        width = 7, height = 5)
 
@@ -305,9 +312,12 @@ ggplot(df_sp, aes(x = dbh, y = h)) +
   # color = "Región biogeográfica") +  # spanish
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5),
-        plot.subtitle = element_text(hjust = 0.5, face = "italic",),
-        legend.position = "bottom"
-  )
+        plot.subtitle = element_text(hjust = 0.5, face = "italic"),
+        legend.position = "bottom",
+        axis.text = element_text(size = 13),
+        axis.title = element_text(size = 15),
+        legend.title = element_text(size = 15),
+        legend.text = element_text(size = 13))
 ggsave("3_figures/2.4-5_best_model/graph_by_fe_variables-paper/best_model-climate_region_ppinaster_2.png", dpi = 300, 
        width = 7, height = 5)
 
@@ -353,7 +363,7 @@ ggplot(df_sp, aes(x = dbh, y = h)) +
        color = "Stand origin") +  # legend title
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5),
-        plot.subtitle = element_text(hjust = 0.5, face = "italic") 
+        plot.subtitle = element_text(hjust = 0.5, face = "italic")
   )
 ggsave("3_figures/2.4-5_best_model/graph_by_fe_variables/best_model-stand_origin_palba.png", dpi = 300, width = 7, height = 5)
 
@@ -371,8 +381,11 @@ ggplot(df_sp, aes(x = dbh, y = h)) +
        # color = "Origen rodal") +  
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5),
-        plot.subtitle = element_text(hjust = 0.5, face = "italic") 
-  )
+        plot.subtitle = element_text(hjust = 0.5, face = "italic") ,
+        axis.text = element_text(size = 13),
+        axis.title = element_text(size = 15),
+        legend.title = element_text(size = 15),
+        legend.text = element_text(size = 13))
 ggsave("3_figures/2.4-5_best_model/graph_by_fe_variables-paper/best_model-stand_origin_palba.png", dpi = 300, width = 7, height = 5)
 
 # plot the results without titles (legend bottom)
@@ -390,8 +403,11 @@ ggplot(df_sp, aes(x = dbh, y = h)) +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5),
         plot.subtitle = element_text(hjust = 0.5, face = "italic"),
-        legend.position = "bottom"
-  )
+        legend.position = "bottom",
+        axis.text = element_text(size = 13),
+        axis.title = element_text(size = 15),
+        legend.title = element_text(size = 15),
+        legend.text = element_text(size = 13))
 ggsave("3_figures/2.4-5_best_model/graph_by_fe_variables-paper/best_model-stand_origin_palba_2.png", dpi = 300, width = 7, height = 5)
 
 
@@ -455,8 +471,11 @@ ggplot(df_sp, aes(x = dbh, y = h)) +
        # color = "Composición específica") +  # spanish
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5),
-        plot.subtitle = element_text(hjust = 0.5, face = "italic") 
-  )
+        plot.subtitle = element_text(hjust = 0.5, face = "italic"),
+        axis.text = element_text(size = 13),
+        axis.title = element_text(size = 15),
+        legend.title = element_text(size = 15),
+        legend.text = element_text(size = 13))
 ggsave("3_figures/2.4-5_best_model/graph_by_fe_variables-paper/best_model-stand_mixture_qrobur.png", dpi = 300, 
        width = 7, height = 5)
 
@@ -475,8 +494,11 @@ ggplot(df_sp, aes(x = dbh, y = h)) +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5),
         plot.subtitle = element_text(hjust = 0.5, face = "italic"),
-        legend.position = "bottom"
-  )
+        legend.position = "bottom",
+        axis.text = element_text(size = 13),
+        axis.title = element_text(size = 15),
+        legend.title = element_text(size = 15),
+        legend.text = element_text(size = 13))
 ggsave("3_figures/2.4-5_best_model/graph_by_fe_variables-paper/best_model-stand_mixture_qrobur_2.png", dpi = 300, 
        width = 7, height = 5)
 
