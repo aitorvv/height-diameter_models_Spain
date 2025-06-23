@@ -5,8 +5,7 @@
 
 <!--:bulb: Have a look at the original poster  [here](http://dx.doi.org/10.13140/RG.2.2.27865.94564). -->
 
-<!--
-:bookmark: Poster DOI: <!-- http://dx.doi.org/10.13140/RG.2.2.27865.94564 -->
+:bookmark: Poster DOI: http://dx.doi.org/10.13140/RG.2.2.24136.84486 
 
 :open_file_folder: Repository DOI: 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15254567.svg)](https://doi.org/10.5281/zenodo.15254567)
