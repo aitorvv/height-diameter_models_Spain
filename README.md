@@ -10,10 +10,7 @@
 :open_file_folder: Repository DOI: 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15254567.svg)](https://doi.org/10.5281/zenodo.15254567)
 
-
-
-<!--
-📜 Manuscript DOI: <!-- https://doi.org/10.1016/j.ecolmodel.2024.110912 -->
+📜 Manuscript DOI: https://doi.org/10.1016/j.foreco.2025.122981
 
 ---
 
