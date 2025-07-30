@@ -4,6 +4,10 @@
 # 2024-11-25
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
 
+# Cite as:
+# Vázquez-Veloso, A., Yang, S.-I., Bullock, B. P., & Bravo, F. (2025). One model to rule them all: A nationwide height–diameter model for 91 Spanish forest species. Forest Ecology and Management, 595, 122981. https://doi.org/10.1016/j.foreco.2025.122981
+
+
 from one_model_to_rule_them_all import *
 
 def main():
