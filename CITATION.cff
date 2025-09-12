@@ -13,8 +13,8 @@ authors:
 - family-names: "Bravo"
   given-names: "Felipe"
   orcid: "https://orcid.org/0000-0001-7348-6695"
-title: "A repository with the original data, code and results of: *One model to rule them all: a nationwide height-diameter model for 91 Spanish forest species*"
+title: 'Code, data and resources for "One model to rule them all: a nationwide height-diameter model for 91 Spanish forest species"'
 version: 1.0.0
-doi: 
+doi: https://doi.org/10.1016/j.foreco.2025.122981
 date-released: 2025-02-19
 url: "https://github.com/aitorvv/height-diameter_models_Spain"
